@@ -1,0 +1,18 @@
+﻿@page "/"
+@rendermode InteractiveServer
+<PageTitle>Quizz</PageTitle>
+
+<h1>Bienvenue sur ce magnifique Quizz </h1>
+
+@if (String.IsNullOrEmpty(Nom))
+{
+    <b><u>Veuillez nous donner votre Nom</u></b><br />
+    <input type="text" @bind="Nom" /> 
+     
+}
+else
+{
+ <Quizz onAnswer=@IsFinished IsDisabled="@_IsDisabled" User="@Nom"></Quizz>
+
+  <Resultat></Resultat>
+}

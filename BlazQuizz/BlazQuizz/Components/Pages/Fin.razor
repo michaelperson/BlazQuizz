@@ -1,0 +1,9 @@
+﻿@page "/fin/{Nom}"
+<h3>Fin</h3>
+Bien joué @Nom
+<Resultat></Resultat>
+@code {
+    [Parameter]
+    public string Nom { get; set; }
+
+}

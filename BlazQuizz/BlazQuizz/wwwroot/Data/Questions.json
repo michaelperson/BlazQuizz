@@ -1,0 +1,24 @@
+{
+  "questions": [
+    {
+      "question": "Si je te dis que les pingouins ont des genoux, tu me crois ?",
+      "correct_answer": "Oui"
+    },
+    {
+      "question": "Est-ce que les poissons peuvent éternuer ?",
+      "correct_answer": "Non"
+    },
+    {
+      "question": "Peut-on rire en dormant ?",
+      "correct_answer": "Oui"
+    },
+    {
+      "question": "Est-ce qu'un flamant rose peut devenir blanc s'il ne mange pas assez de crevettes ?",
+      "correct_answer": "Oui"
+    },
+    {
+      "question": "Un canard peut-il faire de l'écho ?",
+      "correct_answer": "Non"
+    }
+  ]
+}
